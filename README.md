@@ -2,6 +2,10 @@ Hi my name is Rashad Humphrey.
 
 My contact information is rashadthecoder@gmail.com.
 
+Installation instructions: 
+
+Execution instructions: 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
