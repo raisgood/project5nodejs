@@ -2,9 +2,11 @@ Hi my name is Rashad Humphrey.
 
 My contact information is rashadthecoder@gmail.com.
 
-Installation instructions: Go to the website: https://raisgood.github.io/project5nodejs/ and proceed to execution instructions.
+This is an Photo Search Engine created on ReactJS and hosted by NodeJS Express.
 
-Execution instructions: 
+Installation instructions: Go to the website: https://raisgood.github.io/project5nodejs/ and proceed.
+
+Execution instructions: Go to https://raisgood.github.io/project5nodejs/ and type your picture search in the box.
 
 # Getting Started with Create React App
 
