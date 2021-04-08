@@ -2,7 +2,7 @@ Hi my name is Rashad Humphrey.
 
 My contact information is rashadthecoder@gmail.com.
 
-Installation instructions: Go to the website: 
+Installation instructions: Go to the website: https://raisgood.github.io/project5nodejs/ and proceed to execution instructions.
 
 Execution instructions: 
 
