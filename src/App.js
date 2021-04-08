@@ -1,25 +1,80 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
+import axios from "axios";
+
+class Node extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleClick = this.handleClick.bind(this);
+    this.state = { apiResponse: "", image: null };
+  }
+
+  callAPI() {
+    fetch("http://localhost:2425/testAPI")
+      .then((res) => res.json())
+      .then((res) => this.setState({ apiResponse: res.message }));
+  }
+
+  componentDidMount() {
+    this.callAPI();
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <p> {this.state.apiResponse} </p>
+        </header>
+      </div>
+    );
+  }
+}
 
 function App() {
+  const [photo, setPhoto] = useState("");
+  const [clientId] = useState(
+    "wmIq668XnfXhyDLB_5Xxpc1EeLXW0NuE2kb7bBjHPAc"
+  );
+  const [result, setResult] = useState([]);
+
+  function handleChange(event) {
+    setPhoto(event.target.value);
+  }
+
+  function handleSubmit(event) {
+    console.log(photo);
+
+    const url =
+      "https://api.unsplash.com/search/photos?page=1&query=" +
+      photo +
+      "&client_id=" +
+      clientId;
+
+    axios.get(url).then((response) => {
+      console.log(response);
+      setResult(response.data.results);
+    });
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Photo Searcher</h1>
+      <input
+        onChange={handleChange}
+        type="text"
+        name="photo"
+        placeholder="Search for Photos..."
+      />
+      <button onClick={handleSubmit} type="submit">
+        Search
+      </button>
+
+      {result.map((photo) => (
+        <img src={photo.urls.small} />
+      ))}
     </div>
   );
 }
 
 export default App;
+
