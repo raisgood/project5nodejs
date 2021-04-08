@@ -2,7 +2,7 @@ Hi my name is Rashad Humphrey.
 
 My contact information is rashadthecoder@gmail.com.
 
-Installation instructions: 
+Installation instructions: Go to the website: 
 
 Execution instructions: 
 
