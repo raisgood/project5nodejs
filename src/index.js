@@ -11,7 +11,7 @@ class Node extends React.Component {
   }
 
   callAPI() {
-    fetch("http://localhost:2425/testAPI")
+    fetch("http://localhost:8080/testAPI")
       .then((res) => res.json())
       .then((res) => this.setState({ apiResponse: res.message }));
   }
