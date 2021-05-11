@@ -43,10 +43,11 @@
 }
 
 .SearchBar input {
-    height: 25px;
+    height: 30px;
     width: 400px;
     border: double;
     border-color: brown;
+    border-radius: 20em;
 }
 
 .SearchBar button {
@@ -61,4 +62,9 @@
     margin: 50px;
     padding: 30px;
     height: 400px;
+}
+
+img {
+    padding: 5px;
+    border-radius: 10em;
 }
