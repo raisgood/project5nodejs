@@ -1,3 +1,8 @@
+Server-side NodeJS API: https://njeep.sse.codesandbox.io/status
+
+Client-side API: 
+
+
 Hi my name is Rashad Humphrey. 
 
 My contact information is rashadthecoder@gmail.com.
