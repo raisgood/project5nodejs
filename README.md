@@ -7,9 +7,13 @@ Hi my name is Rashad Humphrey.
 
 My contact information is rashadthecoder@gmail.com.
 
-This is an Photo Search Engine created on ReactJS and hosted by NodeJS Express.
+This is an Photo Search Engine created on ReactJS and hosted by NodeJS Express API.
 
-Installation instructions: Go to the website: https://raisgood.github.io/project5nodejs/ and proceed.
+Installation instructions: 
+
+Go to the Server-side API: https://njeep.sse.codesandbox.io/status.  Then,
+
+Go to the Client-side API: https://raisgood.github.io/project5nodejs/ and check inspect the code.
 
 Execution instructions: Go to https://raisgood.github.io/project5nodejs/ and type your picture search in the box.
 
