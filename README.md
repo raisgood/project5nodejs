@@ -1,6 +1,6 @@
 Server-side NodeJS API: https://njeep.sse.codesandbox.io/status
 
-Client-side API: 
+Client-side API: https://raisgood.github.io/project5nodejs/
 
 
 Hi my name is Rashad Humphrey. 
