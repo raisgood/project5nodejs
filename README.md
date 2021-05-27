@@ -13,7 +13,7 @@ Installation instructions:
 
 Go to the Server-side API: https://njeep.sse.codesandbox.io/status.  Then,
 
-Go to the Client-side API: https://raisgood.github.io/project5nodejs/ and check inspect the code.
+Go to the Client-side API: https://raisgood.github.io/project5nodejs/ and inspect the code.
 
 Execution instructions: Go to https://raisgood.github.io/project5nodejs/ and type your picture search in the box.
 
